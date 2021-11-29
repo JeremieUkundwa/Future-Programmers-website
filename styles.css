@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200&family=Gugi&family=Noto+Sans+JP&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200&family=Noto+Sans+JP&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed:wght@100;200&family=Gugi&family=Noto+Sans+JP&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    text-rendering: optimizeLegibility;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+/* logo */
+.logo{
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* color: crimson; */
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    
+}
+/* end of logo */
+/* welcome message */
+.welcome{
+    color: white;
+    position:absolute;
+    width: 1000px;
+    top: 40%;
+    left: 45%;
+    transform: translate(-40%,-45%);
+    font-size: 40px;
+    text-transform: uppercase;
+   
+}
+h1{
+    font-weight: 300;
+}
+/* ====================== end of welcome message ========== */
+/* ================= navigation bar ============================= */
+.banner{
+    /* background-color: black; */
+    background: linear-gradient(rgba(2, 10, 34, 0.7),rgba(1, 7, 32, 0.8)),url("./img/bg2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.nav-bar{
+    padding-right: 100px;
+    text-align: center;
+    
+}
+a{
+    display:inline-block;
+    padding-top: 18px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+a:hover{
+    font-weight: 600;
+}
+/* =============== end of navigation bar ==================== */
+
+/* ================ start of section =======================*/
+
+
+
+
+
+
+
+
+
+/* ======================= end of section ==================== */
+
+/* footer */
+.footer{
+    background: #000;
+    color: white;
+    height: 200px;
+    transition: ease-in-out 0.5s;
+    position: fixed;
+    bottom: 0;
+}
+/* icons */
+.fa{
+    color: white;   
+}
+.fa:hover{
+    color: crimson;
+    transition: ease-in-out 0.1s;
+}
+.information-field{
+    background:#0d112596;
+    width: 100%;
+    height: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: ease-in-out 0.5s;
+}
+.one{
+    width: 33.33%;
+    float: left;
+    padding:50px;
+}
+.two{
+    width: 33.33%;
+    float: left;
+    padding:50px;
+}
+.three{
+    width: 33.33%;
+    float: left;
+    padding:50px;
+}
+.icons{
+    width: 33.33%;
+    float: left;
+    padding-top:50px;
+    padding-left: 50px;
+}
+.text{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* width: 500px; */
+    padding-top: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.footer-icons{
+    color: white;
+    padding-left: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-left: 30px;
+    transition: ease-in-out 0.5s;
+}
